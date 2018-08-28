@@ -5,9 +5,9 @@
 
   <testsuite name="losestudiantes"
     errors="0" failures="0" hostname="" id="" package="losestudiantes" skipped="0"
-    tests="2" time="15.63" timestamp="Thu, 23 Aug 2018 20:39:03 GMT">
+    tests="2" time="17.07" timestamp="Tue, 28 Aug 2018 22:01:59 GMT">
   
-    <testcase name="Los estudiantes login falied" classname="losestudiantes" time="10.66" assertions="3">
+    <testcase name="Los estudiantes login falied" classname="losestudiantes" time="10.44" assertions="3">
 
     
 
@@ -16,13 +16,7 @@
     
     </testcase>
   
-    <testcase name="Visits professor page" classname="losestudiantes" time="4.963" assertions="3">
-
-    
-
-    
-
-    
+    <testcase name="Visits professor page" classname="losestudiantes" time="6.626" assertions="0">
     </testcase>
   
 

@@ -26,9 +26,6 @@ module.exports = { // adapted from: https://git.io/vodU0
   'Visits professor page': function(browser) {
     browser
     .url('https://losestudiantes.co/universidad-de-los-andes/ingenieria-de-sistemas/profesores/mario-linares-vasquez')
-    .waitForElementVisible('.labelHover.jsx-3367902293 > input[type="checkbox"]:nth-child(1)', 4000)
-    .assert.visible('.labelHover.jsx-3367902293 > input[type="checkbox"]:nth-child(1):not(:checked)')
     .click('.labelHover.jsx-3367902293 > input[type="checkbox"]:nth-child(1)')
-    .assert.visible('.labelHover.jsx-3367902293 > input[type="checkbox"]:nth-child(1):checked');
   }
 };
